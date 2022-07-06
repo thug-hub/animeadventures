@@ -13,10 +13,10 @@ end
 if #Erwin == 3 then
     while getgenv().ErwinBuff do
         remote:InvokeServer(Erwin[1])
-        wait(21)
+        wait(20.5)
         remote:InvokeServer(Erwin[2])
-        wait(21)
+        wait(20.5)
         remote:InvokeServer(Erwin[3])
-        wait(21)
+        wait(20.5)
     end
 end
